@@ -6,7 +6,6 @@ replace (
 	github.com/rancher/lasso => github.com/krunalhinguu/lasso v1.29.0-rancher1
 	github.com/rancher/wrangler/v2 => github.com/krunalhinguu/wrangler/v2 v2.29.0-rancher1
 )
-
 require (
 	github.com/ghodss/yaml v1.0.0
 	github.com/gorilla/websocket v1.5.0
