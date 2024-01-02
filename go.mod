@@ -1,7 +1,11 @@
 module github.com/rancher/norman
 
-go 1.20
+go 1.21
 
+replace (
+	github.com/rancher/lasso => github.com/krunalhinguu/lasso v1.29.0-rancher1
+	github.com/rancher/wrangler => github.com/krunalhinguu/wrangler v1.29.0-rancher1
+)
 require (
 	github.com/ghodss/yaml v1.0.0
 	github.com/gorilla/websocket v1.5.0
@@ -14,10 +18,10 @@ require (
 	golang.org/x/sync v0.3.0
 	golang.org/x/text v0.12.0
 	golang.org/x/tools v0.12.0
-	k8s.io/api v0.27.4
-	k8s.io/apiextensions-apiserver v0.27.4
-	k8s.io/apimachinery v0.27.4
-	k8s.io/client-go v0.27.4
+	k8s.io/api v0.29.0
+	k8s.io/apiextensions-apiserver v0.29.0
+	k8s.io/apimachinery v0.29.0
+	k8s.io/client-go v0.29.0
 	k8s.io/gengo v0.0.0-20230306165830-ab3349d207d4
 )
 
