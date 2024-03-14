@@ -3,8 +3,9 @@ module github.com/rancher/norman
 go 1.21
 
 replace (
-	github.com/rancher/lasso => github.com/krunalhinguu/lasso v1.29.0-rancher2
-	github.com/rancher/wrangler/v2 => github.com/krunalhinguu/wrangler/v2 v2.0.0-20240306184635-107acbd29fec
+	github.com/rancher/lasso => github.com/krunalhinguu/lasso v0.0.0-20240314064442-707f664400c6
+	github.com/rancher/wrangler/v2 => github.com/krunalhinguu/wrangler/v2 v2.0.3
+
 )
 
 require (
